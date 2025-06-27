@@ -1,4 +1,5 @@
 "use strict";
+//library management
 class Book {
     constructor(id, title, author, description, totalCopies) {
         this.id = id;
@@ -62,8 +63,7 @@ class Member {
     getBorrowedBooks() { return this.borrowedBooks; }
 }
 class Library {
-    constructor(name) {
-        this.name = name;
+    constructor() {
         this.books = [];
         this.members = [];
     }

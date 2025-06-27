@@ -1,3 +1,4 @@
+//library management
 class Book{
     private readonly id :string;
     private title:string;
@@ -85,10 +86,9 @@ class Member{
 class Library{
     private books: Book[];
     private members: Member[];
-    private name:string;
+    
 
-    constructor (name:string){
-        this.name=name;
+    constructor (){
         this.books=[];
         this.members=[];
     }

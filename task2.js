@@ -1,4 +1,5 @@
 "use strict";
+//task manager
 class Task {
     constructor(title, description, dueDate) {
         this.id = Date.now();
